@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body width="device-width"> 
+  <header>
+    <!-- <div class="container "> -->
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+          </span>
+        </button>
+        <div class=" leftnav collapse navbar-collapse " style="text-align: center;" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Laxmi Gupta Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""  onclick="showPage()" >About Me</a>
+        
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#middle">Qualification</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#last" tabindex="-1">Skills</a>
+            </li>
+          </ul>
+        </div>
+        <div class="rightnav  ">
+
+          <a class="navbrand" href="https://www.facebook.com/" target="none"><img src="facebook.png" alt="error loading"
+              width="40" height="40"></a>
+          <a class="navbrand" href="https://www.linkedin.com" target="none"><img src="linkedin.png" alt="error loading"
+              width=40 height=40></a>
+        </div>
+      </div>
+
+
+    </nav>
+
+    <div class="container">
+      <div class=" container dp flex items-center">
+        <div class="leftme">
+          <img src="profile.jpeg" alt="" height="400" width="400">
+
+
+        </div>
+        <div class=" container rightme" id="introme">
+          <h2>A bit About me</h2>
+          <h4>I'm Laxmi Gupta</h4>
+          <p id="intro">Born and brought up in Siliguri, India.<br> Interested in Coding and leaning new things.
+          </p>
+
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+
+  </header>
+  <div class="container ct2 secondary flex" id="middle" height="50">
+    <div class="container ">
+      <br>
+      <br>
+      <h2 style="color: black; padding-left: 30px;">Degrees</h2><br>
+      <ul>
+        <li>
+          <h5>Completed Matriculation from <b>Rainbow High School, Panighatta with 74% </b>in year 2016</h5><br>
+
+        </li>
+        <li>
+          <h5>Completed HS from <b>Air Force School, Bagdogra </b>with <b>83%</b>in the year 2018</h5><br>
+
+
+        </li>
+        <li>
+          <h5>Pursuing B.Tech in <b>UEM, KOLKATA</b>.Year of Passing out 2022. </h5>
+
+        </li>
+      </ul>
+
+
+    </div>
+    <div class="container">
+      <img src="book3.jpg" id="bookk"  alt="">
+    </div>
+
+
+  </div>
+  <div class="lastt">
+    <div class="container skill " id="last">
+      <div class="floatleft">
+        <h3>Some technical Skills I possesses:</h3>
+      <ol>
+        <li>Proficient in Python</li>
+        <li>Basics of Java and C++</li>
+        <li>Frontend development with html & css</li>
+      </ol>
+      </div>
+      <div class="floatmiddle">
+        <h3>Some of my projects </h3><br>
+      <ul>
+        <li>1. Created a game of stone paper and Scissor in Python.</li>
+        <li>2. Snake Fruit game with the help of Python Pygame module.</li>
+        <li>3. A calculator using python.</li>
+
+      </ul>
+      </div>
+      <div class="floatright">
+        <h3>Links to some of web pages created by me</h3>
+      <ul>
+        <a class="links" href="https://laxmi015.github.io/edutech/" target="blank"> 1. Web page containing advertisement of its institution</a><br>
+        <a class="links" href="https://laxmi015.github.io/DilbSSR/" target="blank">2. A simple website presenting cinema .</a>
+      </ul>
+      </div>
+      
+      
+      
+
+
+    </div>
+  </div>
+  <footer>
+
+    <h4>For any queries contact me at: <a href="mailto:lglaxmi03@gmail.com" target="blank">lglaxmi03@gmail.com</a></h4>
+
+    <h4>or you can also reach me at my linkedin profile by clicking here<a
+        href="https://www.linkedin.com/in/laxmi-gupta-083170190/" target="blank">Laxmi Gupta</a> </h4>
+
+  </footer>
+
+
+<script>
+  function showPage(){
+      // let btn = document.getElementById('btn');
+      let pagee = document.getElementById('intro');
+      // pagee.style.color = 'rgb(0,0,0)';
+      
+
+      // sleep('5000');
+      pagee.style.color = 'rgb(250, 250, 250)';
+
+
+  
+
+
+      pagee.style.zoom = '110%';
+
+      
+    }
+</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous">
+    
+  </script>
+
+
+</body>
+
+</html>

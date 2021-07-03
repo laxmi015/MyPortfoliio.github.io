@@ -1,0 +1,47 @@
+.flex{
+    display:flex;
+    align-items: center;
+    margin:auto;
+    
+}
+.items-center{
+    display: flex;
+    align-items: center;
+
+}
+/* //profile */
+.dp{
+    padding-right: 50px;
+}
+.dp .rightme{
+    padding-left: 52px;
+
+}
+.dp .rightme{
+    color:rgb(235, 88, 108);
+}
+/* .rightme p,h1,h4{
+    color: rgb(85,319,415);
+} */
+
+
+/* hover  ------*/
+.nav-link:hover{
+    text-transform:inherit;
+    font-size: 30px;
+
+    color: rgb(235, 88, 108);
+
+}
+.navbrand img:hover{
+    height: 50px;
+    width: 50px;
+    /* border: 2px solid rgb(235, 88, 108); */
+    border-radius: 100px;
+    filter:invert(100%)
+    /* border-color: lawngreen; */
+}
+footer a:hover{
+    color:rgb(137, 212, 235);
+    font-size: 30px;
+}

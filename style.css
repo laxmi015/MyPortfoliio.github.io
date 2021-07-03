@@ -1,0 +1,158 @@
+
+
+@import 'utilities.css';
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialised;
+    position: relative;
+    top: -1px; 
+}
+
+header{
+    background: var(--dark);
+    background-color: black;
+    clip-path:polygon(0 0,100% 0, 100% 100% , 20% 80%, 0 100%);
+    background-attachment: fixed;
+    /* position: -webkit-sticky; /* Safari */
+  /* position: sticky; */ 
+
+
+}
+
+.leftnav{
+    padding:20px;
+    margin:40px;
+    
+}
+
+/* //check  */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: -40px auto; */
+    color:black;
+    padding: -inherit;
+}
+.nav-link{
+    color:blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    transition: all.3s ease-in-out;
+    height: 40px;
+
+
+
+}
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: rgb(46, 236, 236);
+    border:none;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #3ad4c8;
+    margin-bottom: 5px;
+}
+.navbar-toggler{
+    color: cornflowerblue;
+}
+.nav-item{
+    font-size: 1.2rem;
+    padding: 20px;
+    margin: 4px;
+}
+.navbrand{
+    color:cornsilk;
+    text-decoration: none;
+    padding:10px;
+    margin: 20px ;
+    font-size: 1rem;
+}
+
+
+    /* secondary */
+.ct2{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 500px;
+    
+
+    /* background-color: rgb(24, 70, 122); */
+}
+.ct2{
+    color: rgb(240, 107, 124);
+    font-size: 0.2rem;
+}
+.leftme{
+    box-shadow: -17px -19px 31px 20px rgb(235, 88, 108);
+}
+#bookk{
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+    border: none;
+    display: block;
+    padding: 5px 0;
+    /* max-width: 100%;
+    min-width: 300px;
+    height: auto; */
+}
+
+/* //skills */
+
+.lastt{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9) ),url(bulb.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: rgb(235, 88, 108);
+    /* opacity: 0.5; */
+
+    /* background: var(--dark); */
+    /* background-color: black; */
+    
+}
+.lastt .floatleft{
+    float:left;
+}
+.lastt .floatright{
+    padding-top: 4rem;
+    float:right;
+}
+.lastt .floatmiddle{
+    padding-top: 10rem;
+    padding-left: 20rem;
+    /* clear:both; */
+}
+footer{
+    
+    background-color: black;
+
+}
+footer a{
+    text-decoration: none;
+    color: rgb(235, 88, 108);
+    transition: all.3s ease-in-out;
+
+}
+footer h4{
+    color: white;
+}
+.links{
+    text-decoration: none;
+    color: rgb(235, 88, 108);
+    transition: all.3s ease-in-out;
+}
+
+/* footer  */
